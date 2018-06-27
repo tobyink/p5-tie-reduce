@@ -178,11 +178,13 @@ people wishing to subclass this module.
 
 Constructor.
 
+This is called by C<< TIESCALAR >>.
+
 =item C<< tied($scalar)->get_value >>
 
 Returns the current value of the scalar variable.
 
-This is called by 
+This is called by C<< FETCH >>.
 
 =item C<< tied($scalar)->set_value($value) >>
 
@@ -195,6 +197,8 @@ Sets the scalar variable, passing it through the coderef.
 Subclassers should be aware that this method uses C<caller> to find the
 name of the calling package and access package variables C<< $a >> and
 C<< $b >>.
+
+This is called by C<< STORE >>.
 
 =item C<< tied($scalar)->get_coderef >>
 
