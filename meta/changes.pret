@@ -4,3 +4,8 @@
 	issued  2018-06-27;
 	label   "Initial release".
 
+`Tie-Reduce 0.002 cpan:TOBYINK`
+	issued  2018-06-27;
+	changeset [
+		item "Note the connection with List::Util::reduce."^^Documentation;
+	].
