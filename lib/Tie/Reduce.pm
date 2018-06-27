@@ -5,7 +5,7 @@ use warnings;
 package Tie::Reduce;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.002';
+our $VERSION   = '0.003';
 
 ## suppresses warnings
 

@@ -9,3 +9,9 @@
 	changeset [
 		item "Note the connection with List::Util::reduce."^^Documentation;
 	].
+
+`Tie-Reduce 0.003 cpan:TOBYINK`
+	issued  2018-06-27;
+	changeset [
+		item "Minor improvements and fixes."^^Documentation;
+	].
