@@ -125,6 +125,14 @@ Tie::Reduce - a scalar that reduces its old and new values to a single value
   
   say $sum;  # 10
 
+This is similar in spirit to:
+
+  use List::Util qw(reduce);
+  
+  my $sum = reduce { $a + $b } 0, 1, 2, 3, 4;
+  
+  say $sum;  # 10
+
 =head1 DESCRIPTION
 
 Tie::Reduce allows you to create a scalar which when assigned a new value,
